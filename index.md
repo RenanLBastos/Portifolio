@@ -77,10 +77,7 @@
 
    </li>
       <li>
-        <a href="#whatsapp" class="deco-in"><i class="fab fa-whatsapp-square"></i>+55(11)96322-8331
-
-
-   </li>
+        <a href="#whatsapp" class="deco-in"><i class="fab fa-whatsapp-square"></i> +55(11)96322-8331</li>
 
    </ul>
   </nav>
