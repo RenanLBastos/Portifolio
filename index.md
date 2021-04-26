@@ -1,92 +1,99 @@
 <html>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  
+<div class="container-fluid">
 
-<head>
-  <link href="https://allfont.net/allfont.css?fonts=saxmono" rel="stylesheet" type="text/css" />
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/58caa4ba2a.js" crossorigin="anonymous"></script>
-  <link href="portifolio.css" rel="stylesheet">
+  <head>
+    <link href="https://allfont.net/allfont.css?fonts=saxmono" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/58caa4ba2a.js" crossorigin="anonymous"></script>
+    <link href="portifolio.css" rel="stylesheet">
 
-</head>
+  </head>
 
-<div class="cabecario">
-  <section class="bemVindo" id="welcome-section">
-    <h1>Bem vindo ao meu portifólio</h1>
+  <div class="cabecario">
+    <section class="bemVindo" id="welcome-section">
+      <h1>Bem vindo ao meu portifólio</h1>
 
    <h2>
-      Renan Bastos
-    </h2>
-  </section>
-  <section id="projects">
-    <div class="divRyu">
-      <a href="https://codepen.io/RenanLBastos/full/abBXrVM" target="_blanck">
-        <img class="img-ryu"
-          src="https://cdn.vox-cdn.com/thumbor/sGjV3EJfO-Ok_swRKFWR8LX8yrE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22055248/SFA_final.jpg"
-          class="img-ryu">
+        Renan Bastos
+      </h2>
+    </section>
+    <section id="projects">
+      <div class="divRyu">
+        <a href="https://codepen.io/RenanLBastos/full/abBXrVM" target="_blanck">
+          <img class="img-ryu"
+            src="https://cdn.vox-cdn.com/thumbor/sGjV3EJfO-Ok_swRKFWR8LX8yrE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22055248/SFA_final.jpg"
+            class="img-ryu">
 
    <p>Formulario gamer</p>
-      </a>
-    </div>
-    <div class="divWarren">
-      <a href="https://codepen.io/RenanLBastos/full/abBXPZy" target="_blank">
-        <img class="imgWarren"
-          src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Warren_Buffett_KU-crop%2Cflip.jpg"
-          class="img-warren">
-        <p>Pagina Tributo</p>
-      </a>
-    </div>
-    <div class="divMenino">
-      <a href="https://codepen.io/RenanLBastos/full/OJbGLeW" target="_blank">
-        <img class="imgMenino"
-          src="https://img.pngio.com/boy-playing-video-game-vector-entertainment-game-png-and-vector-video-game-png-images-650_651.png"
-          class="img-menino">
-        <p>Compra de games</p>
+        </a>
+      </div>
+      <div class="divWarren">
+        <a href="https://codepen.io/RenanLBastos/full/abBXPZy" target="_blank">
+          <img class="imgWarren"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Warren_Buffett_KU-crop%2Cflip.jpg"
+            class="img-warren">
+          <p>Pagina Tributo</p>
+        </a>
+      </div>
+      <div class="divMenino">
+        <a href="https://codepen.io/RenanLBastos/full/OJbGLeW" target="_blank">
+          <img class="imgMenino"
+            src="https://img.pngio.com/boy-playing-video-game-vector-entertainment-game-png-and-vector-video-game-png-images-650_651.png"
+            class="img-menino">
+          <p>Compra de games</p>
 
    </a>
-    </div>
-  </section>
-</div>
+      </div>
+    </section>
+  </div>
 
-<nav id="navbar">
-  <ul>
-    <li>
-      <a href="#welcome-section">Bem vindo
-      </a>
-    </li>
-    <li>
-      <a href="#projects">Projetos</a>
-    </li>
-    <li>
-      <a href="#profile-link">Contatos</a>
-    </li>
-  </ul>
-
-</nav>
-<section id="profile-link">
-  <nav id="nav-conts">
+  <nav id="navbar">
     <ul>
       <li>
-        <a href="https://www.freecodecamp.org/renanlbastos" target="_blank" class="deco-fcc"
-          href="#profile-link">FreeCodeCamp
-          <i class="fab fa-free-code-camp"></i></a>
+        <a href="#welcome-section">Bem vindo
+        </a>
       </li>
+      <li>
+        <a href="#projects">Projetos</a>
+      </li>
+      <li>
+        <a href="#profile-link">Contatos</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <section id="profile-link">
+    <nav id="nav-conts">
+      <ul>
+        <li>
+          <a href="https://www.freecodecamp.org/renanlbastos" target="_blank" class="deco-fcc"
+            href="#profile-link">FreeCodeCamp
+            <i class="fab fa-free-code-camp"></i></a>
+        </li>
 
    <li class="li-bot">
-        <a href="https://www.linkedin.com/in/renan-bastos-7950a5a7/" target="_blank" class="deco-in">Linked
-          <i class="fab fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/renan-bastos-7950a5a7/" target="_blank" class="deco-in">Linked
+            <i class="fab fa-linkedin"></i></a>
 
    </li>
-      <li>
-        <a href="#whatsapp" class="deco-in"><i class="fab fa-whatsapp-square"></i> +55(11)96322-8331</li>
+        <li>
+          <a href="#whatsapp" class="deco-in"><i class="fab fa-whatsapp-square"></i>+55(11)96322-8331
+
+
+   </li>
 
    </ul>
-  </nav>
-</section>
+    </nav>
+  </section>
 
 
 
-</body>
+  </body>
 
-
+</div>
 
 </html>
