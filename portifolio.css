@@ -20,16 +20,22 @@ body{
     width: 250px;
     height: auto;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .imgWarren{
     width: 250px;
     height: auto;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .imgMenino{
     width: 250px;
     height: auto;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
